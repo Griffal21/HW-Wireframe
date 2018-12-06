@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box
+}
+
+
 body {
   background: #333;
   font-size: 24px;
@@ -20,21 +25,35 @@ header, #nav, #section, #aside, #arthead, #para, footer{
   margin-bottom: 20px;
 }
 
+.container {
+  padding:0;
+  margin: 0;
+  width: 100%
+
+}
+
 #section {
   float: left;
-  width: 54%;
-  height: 300px;
+  width: 56%;
   margin-bottom: 20px;
+}
+
+#marg {
+  float: left;
+  width: 6%;
+  /*height: 369px;*/
+  margin-bottom: 20px;
+  background-color: #333;
 }
 
 #aside {
-  float: right;
-  width: 34%;
-  height: 300px;
+  float: left;
+  width: 38%;
+  height: 369px;
   margin-bottom: 20px;
 }
 
-#article {
+/* #article { 
   clear: both;
   position: absolute;
   left: 76px;
@@ -61,7 +80,28 @@ header, #nav, #section, #aside, #arthead, #para, footer{
   width: 45.36%;
   padding: 0px;
 }
+This is my old positioning code.  The boxes would go where I wanted them but they wouldn't move with the page.  I'm going to try something new to get the positioning to happen.  I previously had each of the boxes as individual items instead of having them in each other's containers.*/
+/* float left, top margin, left margin... (notes to myself to remember things to try) */
+/* else use chrome developer tools to see how the box is positioning */
 
-footer {
-  clear:both;
+#article { 
+  float: left;
+  background: #333;
+  color: #fff;
+  width: 100%;
+  padding: 24px;
+}
+
+#arthead {
+  float: left;
+  width: 100%;
+}
+
+#para {
+  float: left;
+  width: 100%;
+}
+
+footer{
+ clear: both;
 }
