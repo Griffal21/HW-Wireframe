@@ -1,0 +1,67 @@
+body {
+  background: #333;
+  font-size: 24px;
+  text-align: center;
+  font-family: arial;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+
+header, #nav, #section, #aside, #arthead, #para, footer{
+  padding: 24px;
+  background: #fff;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#nav {
+  margin-bottom: 20px;
+}
+
+#section {
+  float: left;
+  width: 54%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+#aside {
+  float: right;
+  width: 34%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+#article {
+  clear: both;
+  position: absolute;
+  left: 76px;
+  top: 266px;
+  background: #333;
+  color: #fff;
+  width: 49%;
+  height: 250px;
+}
+
+#arthead {
+  clear: both;
+  position: absolute;
+  left: 95px;
+  top: 300px;
+  width: 40.7%;
+}
+
+#para {
+  clear: both;
+  position: absolute;
+  left: 95px;
+  top: 390px;
+  width: 45.36%;
+  padding: 0px;
+}
+
+footer {
+  clear:both;
+}
